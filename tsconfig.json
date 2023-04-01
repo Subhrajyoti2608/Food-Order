@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {},
+  "extends": "expo/tsconfig.base",
+
+  "types": ["react"],
+
+
+  "expo": {
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location.",
+          
+        }
+      ]
+    ]
+  }
+}
+
+
